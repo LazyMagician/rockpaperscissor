@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>Rock Paper Scissor</h1>
+    <h2>Score Board</h2>
+    <div class="Score_board">
+        <div class="score_1">
+            <h3>User</h3>
+            <h3>0</h3>
+        </div>
+        <div class="score_2">
+            <h3>Computer</h3>
+            <h3>0</h3>
+        </div>
+    </div>
+
+    <div class="main_game"> 
+        <div>
+        <div class="disp">
+            <img class="play_1" src="asset/paper.png">
+        </div>
+        <div class="action">
+            <button><img id="rock" class="rock" src="asset/rock.png" onclick="change_hand(this);main_logic();score();" ></button>
+            <button><img id="paper" class="paper" src="asset/paper.png" onclick="change_hand(this);main_logic();score();"></button>
+            <button><img id="scissor" class="scissor" src="asset/scissor.png" onclick="change_hand(this);main_logic();score();"></button>
+        </div>
+        </div>
+        <div>
+        <div class="disp">
+        <img src="asset/paper.png" class="comp_2">
+        </div>
+        <div class="action">
+            <button><img class="rock" src="asset/rock.png" ></button>
+            <button><img class="paper" src="asset/paper.png" ></button>
+            <button><img class="scissor" src="asset/scissor.png" ></button>
+        </div>
+        </div>    
+    </div>
+    
+<!--     
+    <img src="asset/rock.png" alt="cracked">
+    <img src="asset/paper.png" alt="cracked">
+    <img src="asset/scissor.png" alt="cracked"> -->
+    <script src="main.js"></script>
+
+</body>
+</html>

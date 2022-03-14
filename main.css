@@ -1,0 +1,41 @@
+.Score_board{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+h2,h1{
+    text-align: center;
+}
+
+button{
+    height:10rem; 
+    width:10rem;
+    border-radius: 50%;
+}
+.rock,.paper,.scissor{
+    width: 50%;
+    height: 50%;
+}
+.disp{
+    width: 10rem;
+}
+
+.main_game{
+    display: flex;
+    justify-content: space-between;
+}
+.action{
+    width: 20rem;
+    padding: 0rem 2rem;
+    display: flex;
+    
+}
+.play_1{
+    padding: 0 5rem;
+}
+
+.score_1,.score_2{
+    /* width:  */
+    padding: 0rem 12rem ;
+}
